@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export const SpeakerIcon = ({ className }: { className?: string }) => (
@@ -47,12 +46,20 @@ export const VegetableIcon = ({ className }: { className?: string }) => (
   <span className={className} role="img" aria-label="vegetable">🥕</span>
 );
 
-export const ToyIcon = ({ className }: { className?: string }) => (
-  <span className={className} role="img" aria-label="toy">🧸</span>
+export const HouseIcon = ({ className }: { className?: string }) => (
+  <span className={className} role="img" aria-label="house">🏠</span>
 );
 
-export const HomeIcon = ({ className }: { className?: string }) => (
-  <span className={className} role="img" aria-label="home">🏠</span>
+export const ToysIcon = ({ className }: { className?: string }) => (
+  <span className={className} role="img" aria-label="toys">🧸</span>
+);
+
+export const GardenIcon = ({ className }: { className?: string }) => (
+    <span className={className} role="img" aria-label="garden">🌳</span>
+);
+
+export const ForestIcon = ({ className }: { className?: string }) => (
+    <span className={className} role="img" aria-label="forest">🌲</span>
 );
 
 export const NeedsIcon = ({ className }: { className?: string }) => (
